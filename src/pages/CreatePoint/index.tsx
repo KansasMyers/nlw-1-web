@@ -117,7 +117,7 @@ const CreatePoint = () => {
     const { name, email, whatsapp } = formData;
     const uf = selectedUf;
     const city = selectedCity;
-    const [longitude, latitude] = selectedPosition;
+    const [latitude, longitude] = selectedPosition;
     const items = selectedItems; 
 
     const data = {
